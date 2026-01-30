@@ -1,9 +1,7 @@
 # NPC-Vehicle-Repair-System
 RP Standalone script to spawn NPC to drive to player and repair their vehicle!
 
--- REMEMBER TO CHANGE THE FOLDER NAME AFTER YOU UNZIP IT TO: Fixit
-
-Add to your server >resources>Fixit
+Add folder to your server > resources> Fixit
 
 Make sure you 'start Fixit' in your resourcees.cfg
 
