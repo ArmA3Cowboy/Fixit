@@ -2,7 +2,7 @@ Config = {}
 
 -- Distance away the tow truck spawns (RP)
 Config.MinSpawnDistance = 200
-Config.MaxSpawnDistance = 300
+Config.MaxSpawnDistance = 400
 
 -- Tow vehicle model
 Config.TowTruckModel = 'utillitruck3'
