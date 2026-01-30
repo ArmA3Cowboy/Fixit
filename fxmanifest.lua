@@ -6,8 +6,6 @@ name 'Fixit'
 description 'NPC Vehicle Repair System'
 version '1.0.0'
 
-shared_script '@ND_Core/init.lua'
-
 client_scripts {
     'config.lua',
     'client/main.lua'
