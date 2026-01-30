@@ -70,9 +70,9 @@ local function repairVehicleSequence(driver, vehicle, towVeh, towBlip)
 
     ClearPedTasks(driver)
     SetVehicleFixed(vehicle)
-    SetVehicleEngineHealth(vehicle, 1000.0)
+    SetVehicleEngineHealth(vehicle, 1000.0)  					-- You can adjust this if you don't want the engine fully repaired!
     Wait(5000)
-    SetVehicleBodyHealth(vehicle, 1000.0)
+    SetVehicleBodyHealth(vehicle, 1000.0)						-- You can remove this or adjust it if you want!
     SetVehicleUndriveable(vehicle, false)
     SetVehicleDoorShut(vehicle, 4, false)
 
@@ -82,7 +82,7 @@ local function repairVehicleSequence(driver, vehicle, towVeh, towBlip)
 end
 
 ------------------------------------------------
--- SPAWN TOW TRUCK
+-- SPAWN NPC & TRUCK
 ------------------------------------------------
 local function spawnTowTruck()
     local ped = PlayerPedId()
@@ -168,7 +168,7 @@ local function spawnTowTruck()
         local arrived = false
         local elapsed = 0
 
-        while not arrived and elapsed < 500000 do
+        while not arrived and elapsed < 800000 do							-- Adjusting this too low will make everything in here stop working!
             Wait(500)
             elapsed = elapsed + 500
 
@@ -201,7 +201,7 @@ local function spawnTowTruck()
 end
 
 ------------------------------------------------
--- REGISTER COMMAND
+-- REGISTER CHAT COMMAND
 ------------------------------------------------
 RegisterCommand("fixit", function()
     spawnTowTruck()
