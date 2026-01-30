@@ -2,6 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Cowboy'
+name 'Fixit'
 description 'NPC Vehicle Repair System'
 version '1.0.0'
 
