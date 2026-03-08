@@ -64,4 +64,4 @@ This is a standalone script that works with any framework or no framework at all
 
 ## Credits
 
-Original script by Cowboy, enhanced with NUI interface and cooldown system.
+Original script by CowBoyKeno, enhanced with NUI interface and cooldown system.
