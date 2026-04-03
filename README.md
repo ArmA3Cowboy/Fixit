@@ -1,4 +1,5 @@
-# Fixit - NPC Vehicle Repair System
+# CBK FIXIT #
+NPC Vehicle Repair System
 
 A standalone FiveM script that provides an immersive vehicle repair experience with NPC mechanics.
 
@@ -16,9 +17,9 @@ A standalone FiveM script that provides an immersive vehicle repair experience w
 
 ## Installation
 
-1. Download the `Fixit` folder
+1. Download the 'cbk-fixit' folder
 2. Place it in your server's `resources` directory
-3. Add `start Fixit` to your `server.cfg`
+3. Add `start cbk-fixit` to your `server.cfg`
 4. Restart your server
 
 ## Usage

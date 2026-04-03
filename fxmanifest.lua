@@ -2,9 +2,9 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'CowBoyKeno'
-name 'Fixit'
+name 'cbk-fixit'
 description 'NPC Vehicle Repair System'
-version '1.0.0'
+version '1.2.0'
 
 client_scripts {
     'config.lua',
